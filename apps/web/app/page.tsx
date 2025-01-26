@@ -19,7 +19,7 @@ export default function Home() {
         flexDirection:"column"
 
       }}>
-       <TextInput placeholder="type here"></TextInput>
+       <TextInput size="small" placeholder="Room name"></TextInput>
        <button onClick={() => {
           router.push("/chat/123")
        }}>Join room</button>
